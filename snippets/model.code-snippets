@@ -1,0 +1,19 @@
+{
+	"userinterface.js model": {
+		"prefix": "model",
+		"body": [
+			"UserInterface.model({",
+			"\tname: \"${1:name}\",",
+			"\tmethod: UserInterface.appendChild,",
+			"\tproperties: {",
+			"\t\ttagName: \"${2:div}\"",
+			"\t}",
+			"})",
+			"",
+			"UserInterface.bind(\"${1:name}\", async function(element) {",
+			"\t",
+			"})"
+		],
+		"description": "userinterface.js model"
+	}
+}

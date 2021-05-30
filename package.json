@@ -1,0 +1,38 @@
+{
+		"name": "userinterface-js-snippets",
+		"displayName": "userinterface.js snippets",
+		"description": "userinterface.js snippets for vscode",
+		"publisher": "thoughtsunificator",
+		"version": "1.0.6",
+		"engines": {
+				"vscode": "^1.46.0"
+		},
+		"categories": [
+				"Snippets"
+		],
+		"contributes": {
+				"snippets": [
+						{
+								"language": "javascript",
+								"path": "./snippets/model.code-snippets"
+						}
+				]
+		},
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/thoughtsunificator/userinterface.js-snippets-vscode.git"
+		},
+		"keywords": [
+			"javascript",
+			"userinterface.js",
+			"vscode",
+			"text",
+			"snippets"
+		],
+		"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+		"license": "MIT",
+		"bugs": {
+			"url": "https://github.com/thoughtsunificator/userinterface.js-snippets-vscode/issues"
+		},
+		"homepage": "https://github.com/thoughtsunificator/userinterface.js-snippets-vscode"
+}
